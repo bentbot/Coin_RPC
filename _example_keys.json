@@ -1,18 +1,12 @@
 {"coins": [
-	{"name":"bitcoin","network":"127.0.0.1","username":"rpcuser","password":"rpcpasswd","port":"8332"},
-	{"name":"coin","network":"127.0.0.1","username":"rpcuser","password":"rpcpasswd","port":"8332"},
-	{"name":"coin","network":"127.0.0.1","username":"rpcuser","password":"rpcpasswd","port":"8332"}
+	{"name":"bitcoin","username":"rpcuser","password":"rpcpasswd","port":"8332"},
+	{"name":"coin","username":"rpcuser","password":"rpcpasswd","port":"8332"},
+	{"name":"coin","username":"rpcuser","password":"rpcpasswd","port":"8332"}
 ],
 "users": [
-	{"username":"","password":"","coin":"bitcoin"},
-	{"username":"","password":"","coin":"bitcoin"},
-	{"username":"","password":"","coin":"bitcoin"},
-	{"username":"","password":"","coin":""},
-	{"username":"","password":"","coin":""},
-	{"username":"","password":"","coin":""},
-	{"username":"","password":"","coin":""},
-	{"username":"","password":"","coin":""},
-	{"username":"","password":"","coin":""},
+	{"username":"dev","password":"","coin":"bitcoin"},
+	{"username":"production","password":"","coin":"bitcoin"},
+	{"username":"staging","password":"","coin":"bitcoin"},
 ],
 "bans":["192.168.0.1"],
 "allows":["127.0.0.1"],

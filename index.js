@@ -9,7 +9,6 @@ const atob = require('atob');
 
 for( let a = 0; a < keys.coins.length; a++ ) {
 	coins[ keys.coins[a].name ] = new Client({
-		network:keys.coins[a].network,
 		username:keys.coins[a].username,
 		password:keys.coins[a].password,
 		port:keys.coins[a].port
@@ -42,7 +41,8 @@ function chkusr(ip, usr, pwd, coin, cmd) {
 					if(unslt(pwd)==keys.users[u].password){
 						if(keys.users[u].coin==coin|| coin=='any') {
 							console.log(ip+' '+coin+' $'+atob(cmd));
-							err=1;return true;
+							err=1;
+							return true;
 						} else if (!err) {err=1;console.log('Coin '+coin+' permissions issue.'); }
 					} else if (!err) {err=1;console.log('PWD invalid.'); } 
 				} else if (!err) {err=1;console.log('USR '+atob(usr)+' invalid.'); }
