@@ -1,12 +1,12 @@
 {
-  "name": "treest_coin_rpc",
-  "version": "0.0.1",
-  "description": "Tree St. coin rpc.",
+  "name": "Coin_RPC",
+  "version": "0.1.1",
+  "description": "BitCoin HTTP RPC proxy and firewall.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "bentbot",
   "license": "ISC",
   "dependencies": {
     "atob": "^2.1.2",

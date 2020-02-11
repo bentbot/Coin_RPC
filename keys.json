@@ -1,0 +1,33 @@
+{
+	"default_pwd":"0bVeCums3uUWZkq_lxkIIwabTDSc7Hu5yRVPMznMsa4=",
+	"network":"mainnet",
+	"coins":[
+{"name":"bitcoin","username":"liam","password":"rpcpasswd","port":"8332"},
+{"name":"potcoin","username":"liam","password":"zcZr4u93g4UMSY4qyGdRhufaWsKZNzaeWD6BazN4KLBSzhmGVXDADATmcQgRjvDn5UvU4c","port":"8771"},
+{"name":"cannabiscoin","username":"liam","password":"2DrYFbr7JqVShgbbWArNyYgMDNYjyA3vszS5Ue3RXXafMpkt398mnRLMjHtGk6s9f7MgpXpnqMR7LLqB","port":"39347"},
+{"name":"dopecoin","username":"liam","password":"DF6rcPzhFWNnYFD4MTEKGKqBpcxmv56AcUJEXPrrfZG5ZadpuZwdnfdDQ6eLLRyhMpEtMDasKhtvSA8s","port":"40421"}
+	],
+	"users":[
+		{"username":"treest_dev","password":"jAhxZByX8J3wUywyUjy28FEJLZgLYdaMBz8vQLjwSJCL4pqPJdXqVZySz8NE4aaWAVhFcFkVLhe2Lrp9","coin":"bitcoin"},
+		{"username":"treest_dev","password":"jgQ7hEKEmjKUaq6qabqgMSEJJrWqbtPJ9qUMaC8qv7zWLjSbkhZjdawT5wbpjGnBjN9TWwEAU3SVfRRM","coin":"potcoin"},
+		{"username":"treest_dev","password":"AncS3sbzvB2QLaGq2AkNvv7a6H2YjRwNyEKgc3Xu5Qt4JcKVLhUwQTAyLgXfjGjAQbfSCyQuPQ354kSu","coin":"cannabiscoin"},
+		{"username":"treest_dev","password":"Q3dmBx5PsgtEg2HUrUpMswfKXwssHRxdzkQc3kKfpWftBRgqkNFDuTmBnJ3Fpusy5mXXVhgvfS3c9FG6","coin":"dopecoin"},
+		{"username":"ts_prod","password":"JmKLAt3M9WUqGy6MzQhtxgXj3daWWz2z5LDmnQLjDBdTeMyGLRBvWdTauH3STT7qhsx8QRA4z43XeRy8","coin":"bitcoin"},
+		{"username":"ts_prod","password":"VXBnfqhBq52hXtHpYCmNsLevdPukeYBJwgqEwKAfznPkbpDMVDqcfs9t7ZCPme3saSGK6AcD7HxJxwHL","coin":"potcoin"},
+		{"username":"ts_prod","password":"BKxBJ7k6UmsRzheXbpNEcFTD6TKAf895GYT4zqt5RGgEFNXQTeCmNGKWjn8eGjxYN5RDQwkyC4p8R3yk","coin":"cannabiscoin"},
+		{"username":"ts_prod","password":"TnV3Sdn7JnmmJR8XdmYqAzawpVC7yzsNgdxkBpwZW9cc8UN3G5DsHLteyVvT3RVTfRVWeD8Yy3Gm3Pd8","coin":"dopecoin"},
+		{"username":"ts_dark","password":"h8w8ySKgvUVnP453d2vyFhDqtSZqHPqsQ9mtSHJLJeuL7CPnsDC7aKGaSR2Z2JBLvvLquwC7CKbhNFyM","coin":"bitcoin"},
+		{"username":"ts_dark","password":"8wv2XCWy7hzGeWQpTZf7azhb9SWWWkgZVNsTDDMXSuZDH2ndEJBnx2UMpx4pPdPWS2pmhKrDZBsUwYWt","coin":"potcoin"},
+		{"username":"ts_dark","password":"U9KMMNbmWa9n8AddSTLffnAVzbb8j2BEsrrJEfBhKvfQ2PCfcFEjeNTWQqyeBSCVrWredRxkHTnA8MKv","coin":"cannabiscoin"},
+		{"username":"ts_dark","password":"zu6vcRCdezLDfQc8u4TqycXEh8YMD5qBR8WSUfWkGPGWpgdQPBHtUwtBubacsKUFe2MmsCXFWgtefA7q","coin":"dopecoin"},
+		{"username":"treest_staging","password":"y2QjX28YCRKedfVzB7mxvnDSaEsttBfBqDA6wxrNtnUCMM7CsS4TDsH9heLpkwM9UheYMVfeAzPSp4se","coin":"bitcoin"},
+		{"username":"treest_staging","password":"rLA38zyFWWMhfY7EbaZ5zErJbacyDSR5ExSs2dDREQQCmjQb8JmtsbH4qk24GVv8J9wLENX3mUGuE9p9","coin":"potcoin"},
+		{"username":"treest_staging","password":"b2bDqhSuveTP6rUrsRWD8HWkhGqdcwsCpMVGvqWgThLuKPRKAFGgmPjc3KBvw8bDuwzwCxWeZgj5wzPu","coin":"cannabiscoin"},
+		{"username":"treest_staging","password":"aW2btPwUcAG7wqKqMSDVQ5VtRsHq85FU4DZvweh3FwUav93SWuxvJysESMBgjfpEq2hEkBWvSh8Jyv2L","coin":"dopecoin"}
+	],
+	"bans":["10.0.10.1","10.0.100.1","10.0.101.1"],
+	"allows":["10.0.10.50","10.0.10.168"],
+	"salt":"AkyDDSpNBQKMu4GDDhkcdAyEzKLRwxYk7pTAAmZ5c2LFpz7aWgkFTw5E47PpuxYa24DrMhE7CJQQYb6JTt8rqxknBjeaZXRDBHtVr",
+	"auto_firewall":true,
+	"port":9250
+}
